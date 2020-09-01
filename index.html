@@ -43,22 +43,22 @@
         <!-- Left -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">Home</a>
+            <a class="nav-link waves-effect" href="#" target="_blank">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/angular/" target="_blank">About Us</a>
+            <a class="nav-link waves-effect" href="#about-us" target="_blank">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/react/" target="_blank">Services</a>
+            <a class="nav-link waves-effect" href="#services" target="_blank">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/vue/" target="_blank">Products</a>
+            <a class="nav-link waves-effect" href="#products" target="_blank">Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/vue/" target="_blank">FAQ</a>
+            <a class="nav-link waves-effect" href="#faq/" target="_blank">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/vue/" target="_blank">Contact</a>
+            <a class="nav-link waves-effect" href="#contact" target="_blank">Contact</a>
           </li>
         </ul>
 
@@ -94,137 +94,136 @@
   <!--/.Navbar-->
   <main>
     <div class="container z-depth-1 mt-5 pb-3">
-      <div class="container my-5 pt-5 pb-3 px-5">
+      <div class="container my-5 pt-5 pb-3 px-5" id="progress">
 
-  <!-- Section 3 steps -->
-  <section>
+        <!-- Section 3 steps -->
+        <section>
 
-    <style>
-      .fa-play:before {
-        margin-left: .3rem;
-      }
+          <style>
+            .fa-play:before {
+              margin-left: .3rem;
+            }
 
-      /* Steps */
-      .step {
-        list-style: none;
-        margin: 0;
-      }
+            /* Steps */
+            .step {
+              list-style: none;
+              margin: 0;
+            }
 
-      .step-element {
-        display: flex;
-        padding: 1rem 0;
-      }
+            .step-element {
+              display: flex;
+              padding: 1rem 0;
+            }
 
-      .step-number {
-        position: relative;
-        width: 7rem;
-        flex-shrink: 0;
-        text-align: center;
-      }
+            .step-number {
+              position: relative;
+              width: 7rem;
+              flex-shrink: 0;
+              text-align: center;
+            }
 
-      .step-number .number {
-        color: #bfc5ca;
-        background-color: #eaeff4;
-        font-size: 1.5rem;
-      }
+            .step-number .number {
+              color: #bfc5ca;
+              background-color: #eaeff4;
+              font-size: 1.5rem;
+            }
 
-      .step-number .number {
-        width: 48px;
-        height: 48px;
-        line-height: 48px;
-      }
+            .step-number .number {
+              width: 48px;
+              height: 48px;
+              line-height: 48px;
+            }
 
-      .number {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        width: 38px;
-        border-radius: 10rem;
-      }
+            .number {
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+              width: 38px;
+              border-radius: 10rem;
+            }
 
-      .step-number::before {
-        content: '';
-        position: absolute;
-        left: 50%;
-        top: 48px;
-        bottom: -2rem;
-        margin-left: -1px;
-        border-left: 2px dashed #eaeff4;
-      }
+            .step-number::before {
+              content: '';
+              position: absolute;
+              left: 50%;
+              top: 48px;
+              bottom: -2rem;
+              margin-left: -1px;
+              border-left: 2px dashed #eaeff4;
+            }
 
-      .step .step-element:last-child .step-number::before {
-        bottom: 1rem;
-      }
-    </style>
+            .step .step-element:last-child .step-number::before {
+              bottom: 1rem;
+            }
+          </style>
 
-    <!-- Modal -->
-    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-            <iframe id="player" class="embed-responsive-item" src="https://www.youtube.com/embed/7MUISDJ5ZZ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <!-- Modal -->
+          <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <iframe id="player" class="embed-responsive-item" src="https://www.youtube.com/embed/7MUISDJ5ZZ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <h3 class="font-weight-bold text-center dark-grey-text pb-2">Three Easy Steps</h3>
-    <hr class="w-header my-4">
-    <p class="lead text-center text-muted pt-2 mb-5">Explore the best MDB template in the market in a short 1-minute video.</p>
+          <h3 class="font-weight-bold text-center dark-grey-text pb-2">Three Easy Steps</h3>
+          <hr class="w-header my-4">
+          <p class="lead text-center text-muted pt-2 mb-5">Explore the best MDB template in the market in a short 1-minute video.</p>
 
-    <div class="row align-items-center">
+          <div class="row align-items-center">
 
-      <div class="col-lg-6 mb-4">
-        <div class="view z-depth-1-half rounded">
-          <img class="rounded img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/12-col/img%20(6).jpg" alt="Video title">
-          <div class="mask flex-center rgba-black-light">
-            <a id="play" class="btn-floating btn-primary btn-lg" data-toggle="modal" data-target="#modal1"><i class="fas fa-play"></i></a>
+            <div class="col-lg-6 mb-4">
+              <div class="view z-depth-1-half rounded">
+                <img class="rounded img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/12-col/img%20(6).jpg" alt="Video title">
+                <div class="mask flex-center rgba-black-light">
+                  <a id="play" class="btn-floating btn-primary btn-lg" data-toggle="modal" data-target="#modal1"><i class="fas fa-play"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mb-4">
+
+              <ol class="step pl-0">
+                <li class="step-element pb-0">
+                  <div class="step-number">
+                    <span class="number">1</span>
+                  </div>
+                  <div class="step-excerpt">
+                    <h6 class="font-weight-bold dark-grey-text mb-3">Write your requirements</h6>
+                    <p class="text-muted">Think the or organization same proposal to affected heard reclined in be it reassuring.</p>
+                  </div>
+                </li>
+                <li class="step-element pb-0">
+                  <div class="step-number">
+                    <span class="number">2</span>
+                  </div>
+                  <div class="step-excerpt">
+                    <h6 class="font-weight-bold dark-grey-text mb-3">Sign the contract</h6>
+                    <p class="text-muted">Think the or organization same proposal to affected heard reclined in be it reassuring.</p>
+                  </div>
+                </li>
+                <li class="step-element pb-0">
+                  <div class="step-number">
+                    <span class="number">3</span>
+                  </div>
+                  <div class="step-excerpt">
+                    <h6 class="font-weight-bold dark-grey-text mb-3">We start developing</h6>
+                    <p class="text-muted">Think the or organization same proposal to affected heard reclined in be it reassuring.</p>
+                  </div>
+                </li>
+              </ol>
+
+            </div>
+
           </div>
-        </div>
-      </div>
 
-      <div class="col-lg-6 mb-4">
-
-        <ol class="step pl-0">
-          <li class="step-element pb-0">
-            <div class="step-number">
-              <span class="number">1</span>
-            </div>
-            <div class="step-excerpt">
-              <h6 class="font-weight-bold dark-grey-text mb-3">Write your requirements</h6>
-              <p class="text-muted">Think the or organization same proposal to affected heard reclined in be it reassuring.</p>
-            </div>
-          </li>
-          <li class="step-element pb-0">
-            <div class="step-number">
-              <span class="number">2</span>
-            </div>
-            <div class="step-excerpt">
-              <h6 class="font-weight-bold dark-grey-text mb-3">Sign the contract</h6>
-              <p class="text-muted">Think the or organization same proposal to affected heard reclined in be it reassuring.</p>
-            </div>
-          </li>
-          <li class="step-element pb-0">
-            <div class="step-number">
-              <span class="number">3</span>
-            </div>
-            <div class="step-excerpt">
-              <h6 class="font-weight-bold dark-grey-text mb-3">We start developing</h6>
-              <p class="text-muted">Think the or organization same proposal to affected heard reclined in be it reassuring.</p>
-            </div>
-          </li>
-        </ol>
+        </section>
+        <!-- Section -->
 
       </div>
-
-    </div>
-
-  </section>
-  <!-- Section -->
-
-</div>
-      <div class="container px-5 pt-5 pb-4">
+      <div class="container px-5 pt-5 pb-4" id="about-us">
 
 
         <!--Section: About Us-->
@@ -324,7 +323,7 @@
 
 
       </div>
-      <div class="container my-5">
+      <div class="container my-5" id="services">
 
         <!-- Section -->
         <section>
@@ -382,7 +381,7 @@
         <!-- Section -->
       </div>
       <!-- Products -->
-      <div class="container mt-5">
+      <div class="container mt-5" id="products">
 
 
         <!--Section: Content-->
@@ -489,7 +488,7 @@
       </div>
       <!-- end Products -->
       <!-- FAQ -->
-      <div class="container my-5">
+      <div class="container my-5" id="faq">
 
 
         <!--Section: Content-->
@@ -608,72 +607,71 @@
       </div>
       <!-- end FAQ -->
       <!-- contact us -->
-      <div class="container z-depth-1 my-5 px-0">
+      <div class="container z-depth-1 my-5 px-0" id="contact">
 
-  <!--Section: Content-->
-  <section class="my-md-5"
-    style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/People/12-col/img%20(97).jpg'); background-size: cover; background-position: center center;">
+        <!--Section: Content-->
+        <section class="my-md-5" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/People/12-col/img%20(97).jpg'); background-size: cover; background-position: center center;">
 
-    <div class="rgba-black-strong rounded p-5">
+          <div class="rgba-black-strong rounded p-5">
 
-      <!-- Section heading -->
-      <h3 class="text-center font-weight-bold text-white mt-3 mb-5">Contact Us</h3>
+            <!-- Section heading -->
+            <h3 class="text-center font-weight-bold text-white mt-3 mb-5">Contact Us</h3>
 
-      <form class="mx-md-5" action="">
+            <form class="mx-md-5" action="">
 
-        <div class="row">
-          <div class="col-md-6 mb-4">
+              <div class="row">
+                <div class="col-md-6 mb-4">
 
-            <div class="card">
-              <div class="card-body px-4">
+                  <div class="card">
+                    <div class="card-body px-4">
 
-                <!-- Name -->
-                <div class="md-form md-outline mt-0">
-                  <input type="text" id="name" class="form-control">
-                  <label for="name">Your Name</label>
+                      <!-- Name -->
+                      <div class="md-form md-outline mt-0">
+                        <input type="text" id="name" class="form-control">
+                        <label for="name">Your Name</label>
+                      </div>
+                      <!-- Email -->
+                      <div class="md-form md-outline">
+                        <input type="text" id="email" class="form-control">
+                        <label for="email">Your Email Address</label>
+                      </div>
+                      <!-- Message -->
+                      <div class="md-form md-outline">
+                        <textarea id="message" class="md-textarea form-control" rows="3"></textarea>
+                        <label for="message">Your Message</label>
+                      </div>
+
+                      <button type="submit" class="btn btn-primary btn-md btn-block ml-0 mb-0">Submit inquiry</button>
+
+                    </div>
+                  </div>
+
                 </div>
-                <!-- Email -->
-                <div class="md-form md-outline">
-                  <input type="text" id="email" class="form-control">
-                  <label for="email">Your Email Address</label>
-                </div>
-                <!-- Message -->
-                <div class="md-form md-outline">
-                  <textarea id="message" class="md-textarea form-control" rows="3"></textarea>
-                  <label for="message">Your Message</label>
-                </div>
+                <div class="col-md-5 offset-md-1 mt-md-4 mb-4 white-text">
 
-                <button type="submit" class="btn btn-primary btn-md btn-block ml-0 mb-0">Submit inquiry</button>
+                  <h5 class="font-weight-bold">Address</h5>
+                  <p class="mb-0">1632 Main Street</p>
+                  <p class="mb-0">New York, 94126</p>
+                  <p class="mb-4 pb-2">United States</p>
 
+                  <h5 class="font-weight-bold">Phone</h5>
+                  <p class="mb-4 pb-2">+ 01 234 567 89</p>
+
+                  <h5 class="font-weight-bold">Email</h5>
+                  <p>info@gmail.com</p>
+
+                </div>
               </div>
-            </div>
+
+            </form>
 
           </div>
-          <div class="col-md-5 offset-md-1 mt-md-4 mb-4 white-text">
 
-            <h5 class="font-weight-bold">Address</h5>
-            <p class="mb-0">1632 Main Street</p>
-            <p class="mb-0">New York, 94126</p>
-            <p class="mb-4 pb-2">United States</p>
-
-            <h5 class="font-weight-bold">Phone</h5>
-            <p class="mb-4 pb-2">+ 01 234 567 89</p>
-
-            <h5 class="font-weight-bold">Email</h5>
-            <p>info@gmail.com</p>
-
-          </div>
-        </div>
-
-      </form>
-
-    </div>
-
-  </section>
-  <!--Section: Content-->
+        </section>
+        <!--Section: Content-->
 
 
-</div>
+      </div>
       <!-- end contact us -->
     </div>
   </main>
